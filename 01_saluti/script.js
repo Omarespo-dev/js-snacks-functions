@@ -13,3 +13,11 @@ function accettaStringa(nome){
 accettaStringa(userName)
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
+
+
+
+// ARROW VERSiON
+
+// const accettaStringa = (nome) =>  "ciao"+ " " +userName
+
+// console.log(accettaStringa(userName))
