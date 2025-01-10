@@ -5,14 +5,17 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 function accettaStringa(nome){
-    console.log("ciao", userName)
+    console.log("ciao", nome)
 }
 
 // Invoca la funzione qui e stampa il risultato in console
 
-accettaStringa(userName)
-
+const risultato=accettaStringa(userName);
+console.log(risultato);
 //Risultato atteso se si passa 'Mario': // ciao Mario
+
+
+
 
 
 

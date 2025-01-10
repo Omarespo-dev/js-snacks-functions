@@ -5,10 +5,12 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 // Dichiara la funzione qui.
 function accettaArray (lettera){
+    
+    // Dichiaro variabile con array vuoto per le iniziali
     let primaLettera= [];
 
     for(let i = 0; i < names.length; i++){
-        if(names[i].charAt(0)=== lettera){
+        if(names[i].charAt(0) === lettera){
             primaLettera.push(names[i])
         }
     }
@@ -22,3 +24,5 @@ console.log(risultato)
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
+
+
